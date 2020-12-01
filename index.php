@@ -2,9 +2,9 @@
 <html >
 	<head>
 		<meta charset="utf-8">
-		<title>Examen</title> 
+		<title>menu principal</title> 
 		
-		<link rel="stylesheet" type="text/css" href="./assets/css/app.css?v=0.0.2" media="all">
+		<link rel="stylesheet" type="text/css" href="./assets/css/app.css?v=0.0.1" media="all">
 		
 	</head>
 	 
@@ -19,10 +19,6 @@
 						</div>
 						<div id="icono_menu_estatico">
 							<a href="#principal">Peli.com</a>
-						</div>
-						<div id="busqueda">
-							<input type="text" name="busqueda" placeholder="buscar pelicula" size="45">
-							<a href="#">GO</a>
 						</div>
 					</div>
 					<div id="botones_menu">
@@ -46,12 +42,12 @@
 			</div>
 
 			<!-- lugar imagen -->
-			<div id="logo">	
+			<div id="imagen">	
 				<img src="assets/imagenes/inicio_imagen.jpg">
 			</div>
 
-			<!-- seccion de cosas a hacer -->
-			<div id="cosas_hacer">
+			<!-- seccion de peliculas destacadas -->
+			<div id="peliculas_destacadas">
 				<div class="subs">
 					<h2>
 						Peliculas destacadas
@@ -60,30 +56,30 @@
 						de la semana
 					</p>
 				</div>
-				<div id="cuadro-caract">
-					<div id="cuadro">
-						<div class="caracteristicas">
+				<div id="cuadro_destacadas">
+					<div id="cuadro_peliculas">
+						<div class="pelicula">
 							<img src="assets/imagenes/xbox one.jpg">
 							<h4>pelicula</h4>
 							<p>
 								20/10/2020
 							</p>
 						</div>
-						<div class="caracteristicas">
+						<div class="pelicula">
 							<img src="assets/imagenes/ps4.jpg">
 							<h4>pelicula</h4>
 							<p>
 								20/10/2020
 							</p>
 						</div>
-						<div class="caracteristicas">
+						<div class="pelicula">
 							<img src="assets/imagenes/swich.jpg">
 							<h4>pelicula</h4>
 							<p>
 								20/10/2020
 							</p>
 						</div>
-						<div class="caracteristicas">
+						<div class="pelicula">
 							<img src="assets/imagenes/pc.jpg">
 							<h4>pelicula</h4>
 							<p>
@@ -91,22 +87,66 @@
 							</p>
 						</div>
 					</div>
-					
+				</div>
+			</div>
+
+			<div id="peliculas_animadas">
+				<div class="subs">
+					<h2>
+						Peliculas animadas
+					</h2>
+				</div>
+				<div id="cuadro_destacadas">
+					<div id="cuadro_peliculas">
+						<div class="pelicula">
+							<img src="assets/imagenes/xbox one.jpg">
+							<h4>pelicula</h4>
+							<p>
+								20/10/2020
+							</p>
+						</div>
+						<div class="pelicula">
+							<img src="assets/imagenes/ps4.jpg">
+							<h4>pelicula</h4>
+							<p>
+								20/10/2020
+							</p>
+						</div>
+						<div class="pelicula">
+							<img src="assets/imagenes/swich.jpg">
+							<h4>pelicula</h4>
+							<p>
+								20/10/2020
+							</p>
+						</div>
+						<div class="pelicula">
+							<img src="assets/imagenes/pc.jpg">
+							<h4>pelicula</h4>
+							<p>
+								20/10/2020
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<!-- informacion de la pagina -->
 
-			<div id="enlaces_pie">
-				<ul>
-					<li>
-						<img src="assets/imagenes/facebook.png">
-					</li>
-					<li>
-						<img src="assets/imagenes/twitter.png">
-					</li>
-				</ul>
+			<div id="informacion_pie">
+				<div id="enlaces_pie">
+					<ul>
+						<li>
+							<img src="assets/imagenes/facebook.png">
+						</li>
+						<li>
+							<img src="assets/imagenes/twitter.png">
+						</li>
+					</ul>
+				</div>
+					
+				
 			</div>
+
 			<!-- pie de pagina -->
 			<div id="pie_pagina">
 				<div id="elementos">

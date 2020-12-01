@@ -51,26 +51,6 @@ margin:0;
 	text-decoration: none;
 }
 
-#busqueda{
-	margin-top: 10px;
-	margin-left: 10px;
-}
-
-#busqueda input{
-	border-radius: 15px;
-	height: 30px;
-	margin-bottom: 20px;
-}
-
-#busqueda a{
-	text-decoration: none;
-	background-color: orange;
-	color: white;
-	padding: 10px;
-	
-	border-radius: 50%;
-}
-
 #botones_menu{
 	margin-top: 15px;
 	float: right;
@@ -96,11 +76,7 @@ a:hover{
 	text-decoration: none;
 }
 
-#logo{
-	
-}
-
-#logo img{
+#imagen img{
 	width: 1920px;
 	height: 250px;
 	display: block;
@@ -108,37 +84,35 @@ a:hover{
 	margin-right: auto;
 }
 
-#cuadro-caract {
+#cuadro_destacadas {
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#cuadro{
+#cuadro_peliculas{
 	width: 1200px;
 	display: flex;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 100px;
+	margin-bottom: 25px;
 }
 
-.caracteristicas{
-	width: 25%;
-	height: 400px;
+.pelicula{
 	margin-right: 30px;
 	padding-top: 50px;
 	text-align: justify;
 }
 
-.caracteristicas img{
-	margin-left: 30px;
+.pelicula img{
+	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
-	height: 150px;
+	width: 150px;
+	height: 200px;
 }
 
-#cosas_hacer{
+#peliculas_destacadas{
 	
 	border-top-style: solid;
 	border-top-color: #8a8aae;
@@ -167,6 +141,10 @@ a:hover{
 
 .subs h2{
 	padding-top: 30px;
+}
+
+#informacion_pie{
+	background-color: #848485;
 }
 
 #pie_pagina{
