@@ -15,7 +15,8 @@
 				<div id="margen_estatico">
 					<div id="icono_menu">
 						<div id="logomenu">
-							<img src="assets/imagenes/logo.png">
+							<a href="#principal"><img src="assets/imagenes/logo.png"></a>
+							
 						</div>
 						<div id="icono_menu_estatico">
 							<a href="#principal">Peli.com</a>
@@ -23,16 +24,13 @@
 					</div>
 					<div id="botones_menu">
 						<div>
-							<a href="#informacion">Inicio</a>
-						</div>
-						<div>
 							<a href="#referencias">Peliculas</a>
 						</div>
 						<div>
 							<a href="#planes_prin">Shows de TV</a>
 						</div>
 						<div>
-							<a href="#contactanos">Ver en linea</a>
+							<a href="#contactanos">Animacion</a>
 						</div>
 						<div>
 							<a href="#">Perfil</a>
@@ -155,7 +153,7 @@
 							©Copyright 2020 peli
 						</p>
 					</div>
-					<div id="botones_menu">
+					<div id="botones_pie">
 						<div>
 							<a href="#informacion">Inicio</a>
 						</div>

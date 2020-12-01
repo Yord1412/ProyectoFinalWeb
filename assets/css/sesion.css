@@ -1,0 +1,16 @@
+body{
+	margin:0;
+	background-image: url(../imagenes/fondo_sesion.jpg);
+	background-size: 100%;
+}
+
+#area_formulario{
+	width: 950px;
+	height: 781px;
+	margin: auto;
+}
+
+#formulario{
+	margin: auto;
+}
+

@@ -1,5 +1,5 @@
 body{
-margin:0;
+	margin:0;
 }
 
 #principal{
@@ -13,6 +13,7 @@ margin:0;
 }
 
 #menu_estatico{
+	background-color: white;
 	padding-top: 10px;
 	height: 65px;
 	width: 100%;
@@ -197,10 +198,37 @@ a:hover{
 	background-color: #7070cb;
 }
 
+#copyright{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #copyright p{
 	display: inline;
 	color: white;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#botones_pie{
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	display: inline-flex;
+}
+
+#botones_pie a{
+	color: white;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 20px;
+}
+
+#botones_pie a:hover{
+	border-bottom-style: solid;
+	border-bottom-color: black;
 }
