@@ -2,6 +2,7 @@ body{
 	margin:0;
 	background-image: url(../imagenes/fondo_sesion.jpg);
 	background-size: 100%;
+	color: white;
 }
 
 #area_formulario{
@@ -11,6 +12,43 @@ body{
 }
 
 #formulario{
+	padding: 20px;
+	background-color: #7e7e92;
 	margin: auto;
+	margin-top: 200px;
+	border-radius: 10px;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.subs h2{
+	padding: 0px;
+}
+
+#formulario label{
+	font-size: 20px;
+}
+
+#formulario ul{
+	margin: auto;
+	width: 450px;
+	padding-left: 0px;
+}
+
+#formulario li{
+	margin: 20px;
+	text-align: left;
+	list-style: none;
+}
+
+#formulario input{
+	font-size: 15px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+#formulario button{
+	border-radius: 10px;
+	font-size: 20px;
 }
 

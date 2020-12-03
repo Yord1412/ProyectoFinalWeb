@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<title>menu principal</title> 
 		
-		<link rel="stylesheet" type="text/css" href="./assets/css/app.css?v=0.0.1" media="all">
-		
+		<link rel="stylesheet" type="text/css" href="assets/css/app.css?v=0.0.1" media="all">
+		<link rel="stylesheet" type="text/css" href="assets/css/sesion.css?v=0.0.1" media="all">
 	</head>
 	 
 	<body>
@@ -23,126 +23,47 @@
 						</div>
 					</div>
 					<div id="botones_menu">
-						<div>
-							<a href="#referencias">Peliculas</a>
-						</div>
-						<div>
-							<a href="#planes_prin">Shows de TV</a>
-						</div>
-						<div>
-							<a href="#contactanos">Animacion</a>
-						</div>
-						<div>
-							<a href="#">Perfil</a>
-						</div>
+						
 					</div>
 				</div>
 			</div>
-
-			<!-- lugar imagen -->
-			<div id="imagen">	
-				<img src="assets/imagenes/inicio_imagen.jpg">
-			</div>
-
-			<!-- seccion de peliculas destacadas -->
-			<div id="peliculas_destacadas">
-				<div class="subs">
-					<h2>
-						Peliculas destacadas
-					</h2>
-					<p>
-						de la semana
-					</p>
-				</div>
-				<div id="cuadro_destacadas">
-					<div id="cuadro_peliculas">
-						<div class="pelicula">
-							<img src="assets/imagenes/xbox one.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/ps4.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/swich.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/pc.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
+			
+			<!-- lugar del formulario de inicio de sesion -->
+			<div id="area_formulario">
+				<div id="formulario">
+					<div class="subs">
+						<h2>
+							Iniciar sesión
+						</h2>
 					</div>
-				</div>
-			</div>
+					<!--<form method="POST" action="../auth">-->
+					<form>
 
-			<div id="peliculas_animadas">
-				<div class="subs">
-					<h2>
-						Peliculas animadas
-					</h2>
-				</div>
-				<div id="cuadro_destacadas">
-					<div id="cuadro_peliculas">
-						<div class="pelicula">
-							<img src="assets/imagenes/xbox one.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/ps4.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/swich.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-						<div class="pelicula">
-							<img src="assets/imagenes/pc.jpg">
-							<h4>pelicula</h4>
-							<p>
-								20/10/2020
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+						<ul>
+							<li>
+								<label>
+									Correo electronico
+								</label>
+								<input type="email" name="email" required="" placeholder="pedro1234@hotmail.com">
+							</li>
+							<li>
+								<label>
+									Contraseña
+								</label>
+								<input type="password" name="password" required="" placeholder="contraseña">
+							</li>
+								
+						</ul>
 
-			<!-- informacion de la pagina -->
-
-			<div id="informacion_pie">
-				<div id="enlaces_pie">
-					<ul>
-						<li>
-							<img src="assets/imagenes/facebook.png">
-						</li>
-						<li>
-							<img src="assets/imagenes/twitter.png">
-						</li>
-					</ul>
-				</div>
+						<button type="submit">
+							iniciar sesion
+						</button>
+							<!--<input type="hidden" name="action" value="login">
+							<input type="hidden" name="token" value="<?= $_SESSION['token'] ?>">
+							-->
+					</form>	
 					
-				
+				</div>
 			</div>
 
 			<!-- pie de pagina -->
@@ -152,23 +73,6 @@
 						<p>
 							©Copyright 2020 peli
 						</p>
-					</div>
-					<div id="botones_pie">
-						<div>
-							<a href="#informacion">Inicio</a>
-						</div>
-						<div>
-							<a href="#referencias">Peliculas</a>
-						</div>
-						<div>
-							<a href="#planes_prin">Shows de TV</a>
-						</div>
-						<div>
-							<a href="#contactanos">Ver en linea</a>
-						</div>
-						<div>
-							<a href="#">Perfil</a>
-						</div>
 					</div>
 				</div>
 			</div>
