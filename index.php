@@ -5,7 +5,7 @@
 		<title>menu principal</title> 
 		
 		<link rel="stylesheet" type="text/css" href="assets/css/app.css?v=0.0.1" media="all">
-		<link rel="stylesheet" type="text/css" href="assets/css/sesion.css?v=0.0.1" media="all">
+		<link rel="stylesheet" type="text/css" href="assets/css/sesion.css?v=0.0.2" media="all">
 	</head>
 	 
 	<body>
@@ -56,7 +56,10 @@
 						</ul>
 
 						<button type="submit">
-							iniciar sesion
+							<a href="pages/principal.php">iniciar sesion</a>
+						</button>
+						<button type="submit">
+							Registrarse
 						</button>
 							<!--<input type="hidden" name="action" value="login">
 							<input type="hidden" name="token" value="<?= $_SESSION['token'] ?>">

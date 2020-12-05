@@ -128,23 +128,6 @@
 				</div>
 			</div>
 
-			<!-- informacion de la pagina -->
-
-			<div id="informacion_pie">
-				<div id="enlaces_pie">
-					<ul>
-						<li>
-							<img src="../assets/imagenes/facebook.png">
-						</li>
-						<li>
-							<img src="../assets/imagenes/twitter.png">
-						</li>
-					</ul>
-				</div>
-					
-				
-			</div>
-
 			<!-- pie de pagina -->
 			<div id="pie_pagina">
 				<div id="elementos">
