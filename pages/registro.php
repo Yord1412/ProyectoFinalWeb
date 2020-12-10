@@ -1,19 +1,19 @@
 <?php 
-include "app/app.php";
+include "../app/app.php";
 ?>
 
 <!DOCTYPE html>
 <html >
 	<head>
 		<meta charset="utf-8">
-		<title>menu principal</title> 
+		<title>Registro</title> 
 		
-		<link rel="stylesheet" type="text/css" href="assets/css/app.css?v=0.0.1" media="all">
-		<link rel="stylesheet" type="text/css" href="assets/css/sesion.css?v=0.0.2" media="all">
+		<link rel="stylesheet" type="text/css" href="../assets/css/app.css?v=0.0.1" media="all">
+		<link rel="stylesheet" type="text/css" href="../assets/css/sesion.css?v=0.0.2" media="all">
 	</head>
 	 
 	<body>
-		<?php include "layouts/alerts.template.php"; ?>
+		<?php include "../layouts/alerts.template.php"; ?>
 
 		<div id="principal">
 			<!-- Menu suoerior estatico -->
@@ -21,7 +21,7 @@ include "app/app.php";
 				<div id="margen_estatico">
 					<div id="icono_menu">
 						<div id="logomenu">
-							<a href="#principal"><img src="assets/imagenes/logo.png"></a>
+							<a href="#principal"><img src="../assets/imagenes/logo.png"></a>
 							
 						</div>
 						<div id="icono_menu_estatico">
@@ -34,18 +34,24 @@ include "app/app.php";
 				</div>
 			</div>
 			
-			<!-- lugar del formulario de inicio de sesion -->
+			<!-- lugar del formulario de registro -->
 			<div id="area_formulario">
 				<div id="formulario">
 					<div class="subs">
 						<h2>
-							Iniciar sesión
+							Registrarse
 						</h2>
 					</div>
 					<!--<form method="POST" action="../auth">-->
-					<form method="POST" action="auth">
+					<form method="POST" action="../auth">
 
 						<ul>
+							<li>
+								<label>
+									nombre
+								</label>
+								<input type="text" name="name" required="" placeholder="german">
+							</li>
 							<li>
 								<label>
 									Correo electronico
@@ -57,19 +63,18 @@ include "app/app.php";
 									Contraseña
 								</label>
 								<input type="password" name="password" required="" placeholder="contraseña">
-
+								
 							</li>
 								
 						</ul>
 
 						<button type="submit">
-							iniciar sesion
+							Registrarse
 						</button>
-						
-							<a href="pages/registro.php">Registrarse</a>
-							
-						
-						<input type="hidden" name="action" value="login">
+						<button type="submit">
+							<a href="../index.php">volver</a>
+						</button>
+						<input type="hidden" name="action" value="register">
 						<input type="hidden" name="token" value="<?= $_SESSION['token'] ?>">
 							
 					</form>	

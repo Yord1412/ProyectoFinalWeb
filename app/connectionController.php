@@ -3,7 +3,7 @@
 	define("HOST", "localhost");
 	define("USER", "root");
 	define("PSWD", "1412");
-	define("DBNM", "netflix");
+	define("DBNM", "pelicom");
 
 	function connect(){
 		$conn = new mysqli(HOST,USER,PSWD,DBNM);

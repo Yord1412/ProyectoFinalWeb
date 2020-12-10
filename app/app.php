@@ -12,6 +12,6 @@
 	}
 
 	if (!defined("BASE_PATH")) {
-		define("BASE_PATH", "http://localhost:8888/ejercicio 7/");
+		define("BASE_PATH", "http://localhost/proyecto final/");
 	}
 ?>
